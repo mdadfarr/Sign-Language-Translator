@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+#context
+asl_v2_context.md
+
+# ASL Project specific
+venv/
+data/raw/
+data/processed/
+models/*.keras
+models/*.tflite
+outputs/
+.wandb/
+.DS_Store
+*.npy
+demo_video.mp4
